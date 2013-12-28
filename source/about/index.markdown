@@ -61,6 +61,7 @@ Talks
 
 The following talks are good tutorial introductions to the techniques.
 
+- [Tutorial on LiquidHaskell](http://goto.ucsd.edu/~nvazou/liquidtutorial/index.html)
 - [Tutorial at VMCAI](http://goto.ucsd.edu/~rjhala/talks/liquid_types_VMCAI.pptx)
 - [Tutorial at CAV](http://goto.ucsd.edu/~rjhala/talks/liquid_types_CAV2011.pptx)
 
