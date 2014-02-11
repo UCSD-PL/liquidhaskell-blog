@@ -4,9 +4,9 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "rjhala@goto.ucsd.edu"
+ssh_user       = "gridaphobe@goto.ucsd.edu"
 ssh_port       = "22"
-document_root  = "~rjhala/public_html/liquid/haskell/blog"
+document_root  = "~gridaphobe/public_html/liquid/haskell/blog"
 rsync_delete   = false  # NEVER EVER CHANGE THIS! 
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
@@ -16,7 +16,7 @@ deploy_branch  = "gh-pages"
 
 ## -- Misc Configs -- ##
 
-public_dir      = "public/~rjhala/liquid/haskell/blog"    # compiled site directory
+public_dir      = "public/~gridaphobe/liquid/haskell/blog"    # compiled site directory
 source_dir      = "source"    # source file directory
 blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
@@ -26,7 +26,7 @@ themes_dir      = ".themes"   # directory for blog files
 new_post_ext    = "markdown"  # default new post file extension when using the new_post task
 new_page_ext    = "markdown"  # default new page file extension when using the new_page task
 server_port     = "8083"      # port for preview server eg. localhost:4000
-lhs_dir         = "/home/rjhala/research/liquid/liquidhaskell/docs/blog" #location of .lhs files to populate _source/posts
+lhs_dir         = "/Users/gridaphobe/Source/liquid/liquidhaskell/docs/blog" #location of .lhs files to populate _source/posts
 
 desc "Initial setup for Octopress: copies the default theme into the path of Jekyll's generator. Rake install defaults to rake install[classic] to install a different theme run rake install[some_theme_name]"
 task :install, :theme do |t, args|
@@ -401,7 +401,7 @@ task :generate_liquid_one, :file do |t, args|
     rm mdfile 
   end
   puts "## Converting: #{file}"
-  system "liquid #{file} > /dev/null 2>&1"
+  system "liquid --short-names #{file} > /dev/null 2>&1"
   if File.exist?(mdfile) 
     cp_r mdfile, target
   else 

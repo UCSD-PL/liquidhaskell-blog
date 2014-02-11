@@ -2,13 +2,13 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://goto.ucsd.edu/~rjhala/liquid/haskell/blog
+url: http://goto.ucsd.edu/~gridaphobe/liquid/haskell/blog
 title: LiquidHaskell 
 subtitle: Refinement Types via SMT and Predicate Abstraction
 author: UCSD-PL 
 simple_search: http://google.com/search
 description:
-lhsdir: /home/rjhala/research/liquid/liquidhaskell/docs/blog/
+lhsdir: /Users/gridaphobe/Source/liquid/liquidhaskell/docs/blog/
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -17,7 +17,7 @@ lhsdir: /home/rjhala/research/liquid/liquidhaskell/docs/blog/
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /~rjhala/liquid/haskell/blog/atom.xml
+subscribe_rss: /~gridaphobe/liquid/haskell/blog/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email: jhala@cs.ucsd.edu
@@ -27,12 +27,12 @@ email: jhala@cs.ucsd.edu
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /~rjhala/liquid/haskell/blog
+root: /~gridaphobe/liquid/haskell/blog
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public/~rjhala/liquid/haskell/blog
+destination: public/~gridaphobe/liquid/haskell/blog
 plugins: plugins
-code_dir: ../../liquidhaskell 
+code_dir: ../../liquidhaskell
 category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
