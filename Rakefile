@@ -401,7 +401,7 @@ task :generate_liquid_one, :file do |t, args|
     rm mdfile 
   end
   puts "## Converting: #{file}"
-  system "liquid #{file} > /dev/null 2>&1"
+  system "liquid --short-names #{file} > /dev/null 2>&1"
   if File.exist?(mdfile) 
     cp_r mdfile, target
   else 
