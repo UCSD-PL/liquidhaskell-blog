@@ -36,7 +36,17 @@ Papers
 
 To learn about the theory behind Liquid Types, I recommend reading first the 
 PLDI 2008 paper and then the ESOP 2013 paper. Alternatively, one lazy weekend, 
-you could curl up with [Pat Rondon's Ph.D Dissertation](http://goto.ucsd.edu/~pmr/papers/rondon-liquid-types.pdf)
+you could curl up with:
+
++ [Pat Rondon's Ph.D Dissertation](http://goto.ucsd.edu/~pmr/papers/rondon-liquid-types.pdf)
++ [Tech Report](http://goto.ucsd.edu/~rjhala/liquid/liquid_types_techrep.pdf)
+
+#### Haskell
+
+- [Refinement Types For Haskell, ICFP 2014](http://goto.ucsd.edu/~rjhala/papers/refinement_types_for_haskell.pdf)
+- [LiquidHaskell in the Real World, Haskell 2014](http://goto.ucsd.edu/~rjhala/papers/real_world_liquid.pdf)
+- [Abstract Refinement Types, ESOP 2013](http://goto.ucsd.edu/~rjhala/papers/abstract_refinement_types.pdf)
+
 
 #### ML
 
@@ -44,10 +54,6 @@ you could curl up with [Pat Rondon's Ph.D Dissertation](http://goto.ucsd.edu/~pm
 - [Type-based Data Structure Verification, PLDI 2009](http://goto.ucsd.edu/~rjhala/papers/type-based_data_structure_verification.pdf)
 - [Dsolve: Safety Verification via Liquid Types, CAV 2010](http://goto.ucsd.edu/~rjhala/papers/safety_verification_with_liquid_types.pdf)
 - [HMC: Verifying Functional Programs with Abstract Interpreters, CAV 2011](http://goto.ucsd.edu/~rjhala/papers/hmc.pdf)
-
-#### Haskell
-
-- [Abstract Refinement Types, ESOP 2013](http://goto.ucsd.edu/~rjhala/liquid/abstract_refinement_types.pdf)
 
 #### C
 
